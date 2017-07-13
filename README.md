@@ -1,6 +1,9 @@
 # deepeyo
 Game similar to the popular io game, written completely in VB.NET and GDI+
 
+![alt text](https://raw.githubusercontent.com/neurogame/deepeyo/master/reds.png)
+![alt text](https://raw.githubusercontent.com/neurogame/deepeyo/master/blues.png)
+
 ## Downloading
 Download `deepeyo.exe` for a pre-compiled Windows version of Deepeyo client (the actual game) version 1.0.
 Download `deepserv.exe` for a pre-compiled Windows version of Deepeyo server (for hosting games) version 1.0.
