@@ -5,14 +5,14 @@ Game similar to the popular io game, written completely in VB.NET and GDI+
 ![alt text](https://raw.githubusercontent.com/neurogame/deepeyo/master/blues.png)
 
 ## Downloading
-Download `deepeyo.exe` for a pre-compiled Windows version of Deepeyo client (the actual game) version 1.0.
+Download `deepeyo1.exe` for a pre-compiled Windows version of Deepeyo client (the actual game) version 1.0.
 Download `deepserv.exe` for a pre-compiled Windows version of Deepeyo server (for hosting games) version 1.0.
 
 ## Playing
 Follow the instructions under **Downloading** for the client. Run it, ignore any security errors (this is due to no certificates), and type the IP address of anyone you know hosting a server.
 
 ## Hosting
-Follow the instructions under **Downloading** for the server. Run it, ignore any security errors, and then close it again. Look in the directory you started it in, there should be a new file called `server.ini`. Open this, edit any properties (you should use the **Settings Index**) and then run it. 
+Follow the instructions under **Downloading** for the server. Run it, ignore any security errors, and then close it again. Look in the directory you started it in, there should be a new file called `server.ini`. Open this, edit any properties (you should use the **Settings Index**) and then run it. Give local users your private IP, and global users your public IP. 
 
 ### For testing
 Follow the instructions for **Hosting**, but in the `settings.ini` file, bind your server to the local host, by setting `address` to `127.0.0.1` or your private IPv4. You can then connect to it by using the address `127.0.0.1` **on your own machine**.
