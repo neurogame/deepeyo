@@ -5,11 +5,14 @@ Game similar to the popular io game, written completely in VB.NET and GDI+
 ![alt text](https://raw.githubusercontent.com/neurogame/deepeyo/master/blues.png)
 
 ## Downloading
-Download `deepeyo1.exe` for a pre-compiled Windows version of Deepeyo client (the actual game) version 1.0.
-Download `deepserv.exe` for a pre-compiled Windows version of Deepeyo server (for hosting games) version 1.0.
+Download `deepeyo_21.exe` from `LATEST` for a pre-compiled Windows version of Deepeyo client (the actual game) version 1.0.
+Download `deepserv_21.exe` from `LATEST` for a pre-compiled Windows version of Deepeyo server (for hosting games) version 1.0.
 
 ## Playing
 Follow the instructions under **Downloading** for the client. Run it, ignore any security errors (this is due to no certificates), and type the IP address of anyone you know hosting a server.
+
+### Controls, how to play
+WASD or arrow keys to move, click to shoot, resize window to increase view. The bar at the top is your score compared to the leader's score. Stalk up on shapes to get bigger, then go for players.
 
 ## Hosting
 Follow the instructions under **Downloading** for the server. Run it, ignore any security errors, and then close it again. Look in the directory you started it in, there should be a new file called `server.ini`. Open this, edit any properties (you should use the **Settings Index**) and then run it. Give local users your private IP, and global users your public IP. 
